@@ -110,7 +110,7 @@
     \vskip-11bp
     \vfil
     \vfil
-    \centerline{\large John D. Hobby}
+    \centerline{\large Джон Хобби}
     \vskip3bp
     \centerline{и команда разработки MetaPost}
 %%    \centerline{and the MetaPost development team}
@@ -1136,7 +1136,7 @@ $$
 %%\subsection{B\'ezier Cubic Curves}
 
 Когда MetaPost просят нарисовать гладкую кривую через последовательность 
-точек, он конструирует кусочную кубическую кривую с непрерывным уклоном и 
+точек, он конструирует гладкую кусочнокубическую кривую 
 с приблизительно непрерывной кривизной\index{кривизна}.
 %%When MetaPost is asked to draw a smooth curve through a sequence of
 %%points, it constructs a piecewise cubic curve with continuous slope and
@@ -1147,7 +1147,7 @@ $$
 $$ \hbox{\verb|z0..z1..z2..z3..z4..z5|} $$
 дает в результате кривую, что может быть определена 
 параметрически\index{параметризация} как $(X(t),Y(t))$ для 
-$0\leqslant t\leqslant5$, где $X(t)$ и $Y(t)$ --- кусочные кубические функции. 
+$0\leqslant t\leqslant5$, где $X(t)$ и $Y(t)$ --- кусочнокубические функции. 
 %%results in a curve that can be defined parametrically\index{parameterization}
 %%as $(X(t),Y(t))$ for
 %%$0\le t\le5$, where $X(t)$ and $Y(t)$ are piecewise cubic functions.
@@ -1177,7 +1177,7 @@ $0\le t\le1$.
 %%The precise rules for choosing the B\'ezier control points
 %%are described in \cite{ho:splin} and in {\sl The \MF book\/}~\cite{kn:c}.
 
-Для того, чтобы путь имел непрерывный уклон в $(x_i,y_i)$ входящее и 
+Для того, чтобы путь имел касательную в $(x_i,y_i)$ входящее и 
 исходящее направления в $(X(i),Y(i))$ должны соответствовать.
 %%In order for the path to have a continuous slope at $(x_i,y_i)$, the incoming
 %%and outgoing directions at $(X(i),Y(i))$ must match. 
@@ -4522,7 +4522,7 @@ intersectiontimes}\index{intersectiontimes?\texttt{intersectiontimes}}\label{Dis
 %%It locates an intersection between two paths
 %%by giving the ``time'' parameter on each path. 
 Это ссылка на схему параметризации из раздела~\ref{curves}, определяющего 
-пути как кусочные кубические кривые $\bigl(X(t),Y(t)\bigr)$, где диапазон $t$ 
+пути как кусочнокубические кривые $\bigl(X(t),Y(t)\bigr)$, где диапазон $t$ 
 от нуля до числа отрезков кривой.
 %%This refers to the
 %%parameterization scheme from Section~\ref{curves} that described paths
@@ -4733,7 +4733,7 @@ $$
 %%The resulting direction vector has the correct
 %%orientation and a somewhat arbitrary magnitude. 
 Соединение конструкций {\tt point of} и {\tt direction of} дает уравнение для 
-линии тангенса, как показано на рис.~\ref{fig25}.
+касательной прямой, как показано на рис.~\ref{fig25}.
 %%Combining {\tt point
 %%of} and {\tt direction of} constructions yields the equation for a
 %%tangent line as illustrated in Figure~\ref{fig25}.
@@ -4771,15 +4771,14 @@ $$
 \label{fig25}
 \end{figure}
 
-Если вы знаете уклон и вы хотите найти точку на кривой с тангенсом, равным 
-этому уклону, то нужен оператор {\tt directiontime}\index{directiontime
+Если вы хотите найти точку на кривой с касательной, идущей в направлении данного вектора, то нужен оператор {\tt directiontime}\index{directiontime
 of?\texttt{directiontime of}}\label{Ddtimof} --- обратный к 
 {\tt direction of}.
 %%If you know a slope and you want to find a point on a curve where the
 %%tangent line has that slope, the {\tt directiontime}\index{directiontime
 %%of?\texttt{directiontime of}}\label{Ddtimof} operator inverts the {\tt
 %%direction of} operation. 
-C данными вектором-уклоном и путем 
+По данному вектору и пути 
 $$ {\tt directiontime}\, \descr{выражение-пара}\, {\tt of}\,
   \descr{путь-первичность}
 $$
