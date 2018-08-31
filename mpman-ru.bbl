@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{ad:red2}
+{Adobe Systems Inc.}
+\newblock {\em {P}ost{S}cript Language Reference Manual}.
+\newblock Addison Wesley, Reading, Massachusetts, second edition, 1990.
+
+\bibitem{ho:splin}
+J.~D. Hobby.
+\newblock Smooth, easy to compute interpolating splines.
+\newblock {\em Discrete and Computational Geometry}, 1(2), 1986.
+
+\bibitem{ke:pic}
+Brian~W. Kernighan.
+\newblock Pic---a graphics language for typesetting.
+\newblock In {\em Unix Research System Papers, Tenth Edition}, pages 53--77.
+  AT\&T Bell Laboratories, 1990.
+
+\bibitem{kn:c}
+D.~E. Knuth.
+\newblock {\em The {\MF}book}.
+\newblock Addison Wesley, Reading, Massachusetts, 1986.
+\newblock Volume C of {\it Computers and Typesetting}.
+\newblock Д.~Е.~Кнут {\em Все про \MF}. --- ТД ``Вильямс'', 2003.
+
+\bibitem{kn:a}
+D.~E. Knuth.
+\newblock {\em The {\TeX}book}.
+\newblock Addison Wesley, Reading, Massachusetts, 1986.
+\newblock Volume A of {\it Computers and Typesetting}.
+\newblock Д.~Е.~Кнут {\em Все про \TeX}. --- Протвино: АО RD\TeX, 1993.
+
+\bibitem{kn:e}
+D.~E. Knuth.
+\newblock {\em Computer Modern Typefaces}.
+\newblock Addison Wesley, Reading, Massachusetts, 1986.
+\newblock Volume E of {\it Computers and Typesetting}.
+
+\bibitem{kn:mf3}
+D.~E. Knuth.
+\newblock The new versions of {\TeX} and {\MF}.
+\newblock {\em {TUG}boat, the\/ {\TeX} User's Group Newsletter},
+  10(3):325--328, November 1989.
+
+\end{thebibliography}
