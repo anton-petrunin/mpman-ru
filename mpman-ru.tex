@@ -1488,7 +1488,7 @@ $$ \hbox{\verb|draw z0{curl c}..z1..{curl c}z2|} $$
 установит параметр изгиба для \verb|z0| и \verb|z2|.
 %%sets the curl parameter for \verb|z0| and \verb|z2|. 
 Маленькие значения параметра изгиба уменьшают кривизну\index{кривизна} 
-в указанных концовых точках пути, а большие значения увеличивают кривизну 
+в указанных концевых точках пути, а большие значения увеличивают кривизну 
 как показано на рис.~\ref{fig10}. 
 %%Small values of
 %%the curl parameter reduce the curvature\index{curvature} at the
@@ -8558,7 +8558,7 @@ $$ \hbox{\tt boxjoin(} \descr{текст уравнений} \hbox{\tt )} $$
 %%to control the relative sizes and positions of the boxes.
 
 \begin{figure}[htp]
-$$\hbox{$\begin{verbatim}
+\[\hbox{$\begin{verbatim}
 input boxes
 beginfig(49);
 boxjoin(a.se=b.sw; a.ne=b.nw);
@@ -8597,7 +8597,7 @@ label.rt(btex \strut ndblock etex, z.ptr); endfig;
 \end{verbatim}
 $}
 \atop \vcenter{\vskip8pt\hbox{\includegraphics{manfig-ru-49}}}
-$$
+\]
 \caption{Код MetaPost и соответствующий рисунок}
 %%\caption{MetaPost code and the corresponding figure}
 \label{fig49}
@@ -9505,7 +9505,7 @@ tracingnone}\index{tracingnone?\texttt{tracingnone}}\label{Dtnone},
 %%MetaPost interpreter's limited resources were used.
 \end{description}
 
-\section*{Признательность}
+\section*{Благодарности}
 %%\section*{Acknowledgement}
 
 Я рад поблагодарить Дональда Кнута за возможность проделать эту работу --- 
@@ -9681,7 +9681,7 @@ boxes.mp}\index{boxes.mp?\texttt{boxes.mp}} с макросами.
 \begin{table}[htp]
 \caption{Внутренние переменные с числовыми значениями}
 %%\caption{Internal variables with numeric values}
-$$\begin{tabular}{|l|r|l|}
+\[\begin{tabular}{|l|r|l|}
 \hline
 \multicolumn1{|c}{Имя}&  \multicolumn1{|c}{Стр.}&  \multicolumn1{|c|}{Описание}\\
 %%\multicolumn1{|c}{Name}&  \multicolumn1{|c}{Page}&  \multicolumn1{|c|}{Explanation}\\
@@ -9804,17 +9804,18 @@ $$\begin{tabular}{|l|r|l|}
         текущий год (например, 1992)\\\hline
 %%        the current year (e.g., 1992)\\\hline
 \end{tabular}
-$$
+\]
 \label{ivartab}%
 \index{day?\texttt{day}}\index{month?\texttt{month}}\index{pausing?\texttt{pausing}}\index{showstopping?\texttt{showstopping}}%
 \index{time?\texttt{time}}\index{tracingtitles?\texttt{tracingtitles}}\index{year?\texttt{year}}
 \end{table}
 
+\newpage
 
 \begin{table}[htp]
 \caption{Другие предопределенные переменные}
 %%\caption{Other Predefined Variables}
-$$\begin{tabular}{|l|l|r|l|}
+\[\begin{tabular}{|l|l|r|l|}
 \hline
 \multicolumn1{|c}{Имя}&  \multicolumn1{|c}{Тип}&  \multicolumn1{|c}{Стр.}&
         \multicolumn1{|c|}{Объяснение}\\
@@ -9844,7 +9845,7 @@ $$\begin{tabular}{|l|l|r|l|}
         Дополнительные команды для {\tt endfig}\\\hline
 %%        Commands for {\tt endfig} to scan\\\hline
 \end{tabular}
-$$
+\]
 \label{pvartab}
 \end{table}
 
@@ -9852,7 +9853,7 @@ $$
 \begin{table}[htp]
 \caption{Предопределенные константы}
 %%\caption{Predefined Constants}
-$$\begin{tabular}{|l|l|r|l|}
+\[\begin{tabular}{|l|l|r|l|}
 \hline
 \multicolumn1{|c}{Имя}&  \multicolumn1{|c}{Тип}&  \multicolumn1{|c}{Стр.}&
         \multicolumn1{|c|}{Объяснение}\\
@@ -10029,7 +10030,7 @@ $$\begin{tabular}{|l|l|r|l|}
 %%\pl\tt  withdots&       picture&        \pageref{Dwdots}&
 %%        Dash pattern that produces dotted lines\\\hline
 \end{tabular}
-$$
+\]
 \label{consttab}%
 \index{cc?\texttt{cc}}\index{dd?\texttt{dd}}\index{ditto?\texttt{ditto}}\index{epsilon?\texttt{epsilon}}%
 \index{origin?\texttt{origin}}\index{pc?\texttt{pc}}\index{quartercircle?\texttt{quartercircle}}%
@@ -10043,7 +10044,7 @@ $$
 \begin{table}[htp]
 \caption{Команды}
 %%\caption{Commands}
-$$\begin{tabular}{|l|r|l|}
+\[\begin{tabular}{|l|r|l|}
 \hline
 \multicolumn1{|c}{Имя}&  \multicolumn1{|c}{Стр.}&  \multicolumn1{|c|}{Объяснение}\\
 %%\multicolumn1{|c}{Name}&  \multicolumn1{|c}{Page}&  \multicolumn1{|c|}{Explanation}\\
@@ -10164,7 +10165,7 @@ $$\begin{tabular}{|l|r|l|}
         Писать строку в файл\\\hline
 %%        Write string to file\\\hline
 \end{tabular}
-$$
+\]
 \index{let?\texttt{let}}%
 \label{cmdtab}
 \end{table}
@@ -10173,7 +10174,7 @@ $$
 \begin{table}[htp]
 \caption{Макросы, похожие на функции}
 %%\caption{Function-Like Macros}
-$$\begin{tabular}{|l|l|l|r|p{5.7cm}|}
+\[\begin{tabular}{|l|l|l|r|p{5.7cm}|}
 %%$$\begin{tabular}{|l|l|l|r|l|}
 \hline
 \multicolumn1{|c}{Имя}&  \multicolumn1{|c}{Аргументы}&
@@ -10325,7 +10326,7 @@ $$\begin{tabular}{|l|l|l|r|p{5.7cm}|}
         \small Пара ${\tt x}\descr{суффикс},{\tt y}\descr{суффикс})$\\\hline
 %%        The pair ${\tt x}\descr{suffix},{\tt y}\descr{suffix})$\\\hline
 \end{tabular}
-$$
+\]
 \index{min?\texttt{min}}\index{max?\texttt{max}}%
 \label{pseudotab}
 \end{table}
@@ -10828,6 +10829,8 @@ $\tt \descr{команда трассировки} \rightarrow tracingall \;|\; 
 %$\textsl{day} + \textsl{time}*\epsilon$.  Unfortunately, \textsl{time}
 %is in minutes.
 \end{figure}
+
+\newpage
 
 \begin{figure}[htp]
 \begin{ctabbing}
